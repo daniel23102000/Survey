@@ -246,7 +246,7 @@ form {
                 </div>
 
                 <div class="form-group">
-                    <label for="usia">Email : </label>
+                    <label for="usia">Usia : </label>
                     <input type="text" name="usia" id="usia" required value="<?= $warga["usia"]; ?>">
                 </div>
 
@@ -256,38 +256,13 @@ form {
                 </div>
 
                 <div class="form-group">
-                    <label for="usia">Keluhan : </label>
+                    <label for="keluhan">Keluhan : </label>
                     <input type="text" name="keluhan" id="keluhan" required value="<?= $warga["keluhan"]; ?>">
                 </div>
 
                 <div class="form-group">
-        <p>apakah kalian puas dengan layanan kami?</p>
-        <label>
-          <input
-            name="rekomendasi"
-            id="rekomendasi"
-            value="puas"
-            type="radio"
-            class="input-radio"
-            checked
-            required value="<?= $warga["rekomendasi"]; ?>"/>Puas</label
-        >
-        <label>
-          <input
-            name="rekomendasi"
-            id="rekomendasi"
-            value="lumayan"
-            type="radio"
-            class="input-radio"
-            required value="<?= $warga["rekomendasi"]; ?>"/>Lumayan</label>
-  
-        <label><input
-            name="rekomendasi"
-            id="rekomendasi"
-            value="tidak-puas"
-            type="radio"
-            class="input-radio"
-            required value="<?= $warga["rekomendasi"]; ?>"/>Tidak Puas</label>
+        <label for="rekomendasi">Rekomendasi : </label>
+                    <input type="text" name="rekomendasi" id="rekomendasi" required value="<?= $warga["rekomendasi"]; ?>">
       </div>
                 
                     <button type="submit" name="submit">Ubah Data!</button>
