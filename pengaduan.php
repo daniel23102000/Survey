@@ -213,6 +213,7 @@ form {
     </head>
     <body>
         <h1>Input data dan keluhan</h1>
+        <a href="index.php">Kembali</a>
         <br><br>
 
         <form id="survey-form" action="" method="post" enctype="multipart/form-data">
